@@ -1,0 +1,60 @@
+<h1>lectur-3</h1> 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+
+</head>
+<body> 
+    <form action="">
+        <h1>payment form</h1>
+        <h2>contact information</h2>
+        <p>name:* <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender </legend>
+            <p> 
+            male <input type="radio" name="gender" id="male">
+           female <input type="radio" name="gender" id="female">
+            </p>
+        </fieldset>
+        <p>
+            Address <textarea name="Address" id="address" cols="100" rows="8"></textarea>
+        </p>
+        <p>Email: <input type="email" name="email" id="email"></p>
+        
+        <p>pincode: <input type="number" name="pincode" id="pincode"></p>
+<hr>
+<h2>payment information</h2>
+        <p>
+            card type:
+            <select name="card_type" id="card_type">
+                <option value="">---select acard type</option>
+                <option value="">visa</option>
+                <option value="">phone pe</option>
+                <option value=""> gpay</option>
+                <option value="">master card</option>
+            </select>
+            
+        </p>
+        <p>
+            card number <input type="number" name="card_number" id="card_number">
+        </p>
+        
+        <p>
+            Expiration Date: <input type="date" name="exp_date" id="exp_date"
+        </p>
+        <P>
+            CVV <input type="password" name="CVV" id="CVV"
+        </P>
+        
+        <p>
+            <input type="submit" value="pay now"
+        </p>
+    </form>
+</body>
+</html>
